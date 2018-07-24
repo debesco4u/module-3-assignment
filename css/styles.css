@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	font-size:16px;
+	color:black;
+	background-color: #fff;
+	font-family: cursive,sans-serif;
+}
+
+/** Header**/
+#header-nav {
+	background-color: lightgray;
+	border:2px black solid;
+	border-radius: 0;
+	height:auto;
+}
+.navbar-brand {
+		padding-top: ;
+}
+.navbar-brand h1 {
+	font-family: sans-serif;
+	color: black;
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+/**nav-list**/
+#nav-list {
+	margin-top: 0px;
+}
+#nav-list a {
+	color: black;
+	text-align: center;
+	background-color: lightgray;
+
+}
+#nav-list a:hover {
+	background:#E7E;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+.container-fluid {
+ 
+}
+#chicken{
+	font-family: sans-serif;
+	background-color: lightgray;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#beef{
+	font-family: sans-serif;
+	background-color: lightgray;
+	margin-bottom: 10px;
+	margin-top: 10px;
+		
+}
+#sushi{
+	font-family: sans-serif;
+	background-color: lightgray;
+	margin-bottom: 10px;
+	margin-top: 10px;
+		
+}
+#row {
+	margin:5px;
+}
+/*** Media Responsive***/
+@media (min-width: 768px){
+#nav-list {
+    display: none;
+    
+}
+}
